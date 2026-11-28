@@ -224,7 +224,7 @@ new IntersectionObserver(es=>{const e=es[es.length-1],h=Math.min(e.boundingClien
  hint.vis?hGo():hStop();},{rootMargin:"-"+HH+"px 0px 0px 0px",threshold:Array.from({length:21},(_,i)=>i/20)}).observe(hintEl);
 document.addEventListener("visibilitychange",()=>document.hidden?hStop():hGo());
 // download flow: consent pop-up first, then the download (and the email queue for Yes)
-const SCRIPT_URL="https://script.google.com/macros/s/AKfycbwO95ZjvN6unvc6PnRQgYh6i8FBPVe03doGaULrnu0SsdezF4V6vazGFGHiL5LqVouu4Q/exec"; // your Apps Script web app address
+const SCRIPT_URL="birthdays.alsapubliclaw.workers.dev"; // your Apps Script web app address
 const SECRET="fairygtonlinee"; // must match the SECRET in your Apps Script properties
 let blobP=null,choice="",mx={},typoOK="",dt=null;
 const em=$("em"),cerr=$("cerr"),cgo=$("cgo");
